@@ -1,0 +1,31 @@
+{
+  "name": "vlvmWEB",
+  "description": "vlvmWEB",
+  "keywords": [
+    "web"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "要部署的协议vmess或vless,请填小写的vmess或vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "可生成UUID的网站: https://www.uuidgenerator.net",
+      "value": "",
+      "required": false
+    },
+        "vindex": {
+      "description": "伪装网站，填写一个真实网站地址",
+      "value": "icook.tw",
+      "required": false
+    }
+   
+  },
+  "website": "https://github.com/iknow2165/vlvmWEB",
+  "repository": "https://github.com/iknow2165/vlvmWEB",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
